@@ -1,0 +1,147 @@
+body {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(84, 84, 84);
+	color: white;
+}
+
+div.main_container {
+	display: grid;
+	grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+	grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+}
+
+div.logo_image {
+	grid-column: 1/1;
+	grid-row: 1;
+	background-color: grey;
+}
+
+.horizontalNav {
+	grid-column: 2/7;
+	grid-row: 1;
+	background-color: black;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+.horizontalNav li {
+	list-style-type: none;
+	float: left;
+	font-size: 1.5em;
+	padding: 5px 5px 5px 5px;
+	margin: 0em 0px 0em 0px;
+	text-align: center;
+	color: white;
+	width: 20%;
+}
+
+.horizontalNav li:hover {
+	color: rgb(202,32,32);
+}
+
+/*
+nav, section, div {
+	outline: 1px solid black;
+}
+*/
+
+h1.title {
+	grid-column: 1/7;
+	font-style: italic;
+}
+
+article.if {
+	grid-column: 1/6;
+	float: left;
+}
+
+.ifTitle {
+	color: rgb(202,32,32)
+}
+
+article.offspring {
+	grid-column: 1/6;
+	float: left;
+}
+
+.osTitle {
+	color: orange;
+}
+
+article.caravan {
+	grid-column: 1/6;
+	float: left;
+}
+
+.caravanTitle {
+	color: skyblue;
+}
+
+.footnote {
+	font-size: 0.8em;
+}
+
+.footnote a {
+	color: rgb(202,32,32);
+}
+
+footer.footer {
+	grid-column: 1/7;
+	width: 100%;
+}
+
+.if0{
+	float: left;
+}
+
+img.if2 {
+	float: left;
+	clear: left;
+	width: 65%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.os0{
+	float: left;
+}
+
+img.os1 {
+	float: left;
+	clear: left;
+	width: 65%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+img.os2 {
+	float: left;
+	clear: left;
+	width: 65%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.cp0{
+	float: left;
+}
+
+img.cp1 {
+	float: left;
+	clear: left;
+	width: 65%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+img.cp2 {
+	float: left;
+	clear: left;
+	width: 65%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}

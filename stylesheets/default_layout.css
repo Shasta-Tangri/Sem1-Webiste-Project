@@ -1,0 +1,33 @@
+nav.horizontalNav {
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	display: flow-root;
+}
+
+.horizontalNav li {
+	list-style-type: none;
+	float: left;
+	font-size: 1.3em;
+	padding: 0.5em 0px 0.5em 0px;
+	margin: 0em 0px 0em 0px;
+	width: 16.6%;
+	text-align: center;
+	color: white;
+}
+
+.horizontalNav li:hover {
+	color: rgb(202,32,32);
+}
+
+footer.footer {
+	background-color: black;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 0.8em;
+}

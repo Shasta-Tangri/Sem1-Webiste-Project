@@ -1,0 +1,124 @@
+/* Base Homepage Layout */
+
+body {
+	background-color: rgb(84, 84, 84);
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.main_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 3fr 2fr 3fr 3fr;
+}
+
+/* Hyperlinks */
+a:link {
+	color: rgb(202, 32, 32);
+}
+
+a:visited {
+	color: dark red;
+}
+
+
+/* Nav Bar */
+
+.horizontalNav {
+	grid-column: 2/-1;
+	grid-row: 1;
+	background-color: black;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+
+.horizontalNav li {
+	list-style-type: none;
+	float: left;
+	font-size: 1em;
+	padding: 5px 5px 5px 5px;
+	margin: 0em 0px 0em 0px;
+	text-align: center;
+	color: white;
+	width: 16%;
+}
+
+
+.horizontalNav li:hover {
+	color: rgb(202,32,32);
+}
+
+/* Footer */
+footer.footer {
+	grid-column: 1/-1;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer p, h4 {
+	color: white;
+	text-align: center;
+}
+
+/* Section Layouts for Home Page*/
+
+section.movies {
+	grid-column: 1/4;
+	background-color: white;
+	padding: 1em 1em 1em 1em;
+}
+
+section.img_movies {
+	grid-column: 4/-1;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	
+section.img_tv {
+	grid-column: 1/4;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section.tv_shows {
+	grid-column: 4/-1;
+	background-color: white;
+	padding: 1em 1em 1em 1em;
+}
+
+section.video_games {
+	grid-column: 1/4;
+	background-color: white;
+	padding: 1em 1em 1em 1em;
+}
+
+section.img_games {
+	grid-column: 4/-1;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section.music {
+	grid-column: 4/-1;
+	background-color: white;
+	padding: 1em 1em 1em 1em;
+}
+
+section.img_music {
+	grid-column: 1/4;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	

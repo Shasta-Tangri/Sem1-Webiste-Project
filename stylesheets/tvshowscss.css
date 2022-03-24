@@ -1,0 +1,200 @@
+body {
+	background-color: rgb(84, 84, 84);
+}
+
+div.main_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: .3fr 1fr 0.5fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 1fr;
+	background-color: rgb(84, 84, 84);
+	color: white;
+}
+
+/* Hyperlinks */
+a:link {
+	color: rgb(202, 32, 32);
+}
+
+a:visited {
+	color: dark red;
+}
+
+
+/* Nav Bar */
+
+.horizontalNav {
+	grid-column: 2/-1;
+	grid-row: 1;
+	background-color: black;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+
+.horizontalNav li {
+	list-style-type: none;
+	float: left;
+	font-size: 1em;
+	padding: 5px 5px 5px 5px;
+	margin: 0em 0px 0em 0px;
+	text-align: center;
+	color: white;
+	width: 18%;
+}
+
+
+.horizontalNav li:hover {
+	color: rgb(202,32,32);
+}
+	
+/* Logo Image */
+img {
+	grid-column: 1;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	
+/* Footer */
+footer {
+	grid-column: 1/-1;
+	background-color: black;
+	padding: 0.5em 1em 1em 1em;
+	font-size: 0.8em;	
+}
+
+footer p, h3 {
+	color: white;
+}
+/*
+nav, div, footer {
+	outline: 1px solid black;
+}
+*/
+/* Layout of TV Shows */
+
+section.classics {
+	grid-column: 1/6;
+	padding: 1em 1em 1em 1em;
+	outline: 1px solid black;
+}
+
+section.img_classics {
+	grid-column: 6/-1;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section.new_notable {
+	grid-column: 1/-1;
+	grid-row: 3;
+	padding: 1em 1em 1em 1em;
+	text-align: center;
+	outline: 1px solid black;
+}
+
+section.shameless {
+	grid-column: 3/-1;
+	grid-row: 4;
+	padding: 1em 1em 1em 1em;
+	outline: 1px solid black;
+}
+
+section.img_shameless {
+	grid-column: 1/3;
+	grid-row: 4;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: 1px solid black;
+}
+
+section.schittscreek {
+	grid-column: 3/-1;
+	grid-row: 5;
+	padding: 1em 1em 1em 1em;
+	outline: 1px solid black;
+
+}
+
+section.img_schittscreek {
+	grid-column: 1/3;
+	grid-row: 5;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: 1px solid black;
+}
+
+section.sellingsunset {
+	grid-column: 3/-1;
+	grid-row: 6;
+	padding: 1em 1em 1em 1em;
+	outline: 1px solid black;
+}
+
+section.img_sellingsunset {
+	grid-column: 1/3;
+	grid-row: 6;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: 1px solid black;
+}
+
+section.ginny {
+	grid-column: 3/-1;
+	grid-row: 7;
+	padding: 1em 1em 1em 1em;
+	outline: 1px solid black;
+}
+
+section.img_ginny {
+	grid-column: 1/3;
+	grid-row: 7;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: 1px solid black;
+}
+
+section.good_girls {
+	grid-column: 3/-1;
+	grid-row: 8;
+	padding: 1em 1em 1em 1em;
+	outline: 1px solid black;
+}
+
+section.img_good_girls {
+	grid-column: 1/3;
+	grid-row: 8;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: 1px solid black;
+}
+
+section.coming_soon {
+	grid-column: 1/5;
+	grid-row: 9;
+	padding: 1em 1em 1em 1em;
+	outline: 1px solid black;
+}
+
+section.img_staircase {
+	grid-column: 5/-1;
+	grid-row: 9;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: 1px solid black;
+}
